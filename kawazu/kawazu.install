@@ -1,0 +1,5 @@
+post_install() {
+  echo "to enable kawazu. desribe the following in your profile (.bash_profile .zshrc etc...)"
+  echo "export KAWAZU_ROOT_DIR=/usr/lib/kawazu"
+  echo "source /usr/lib/kawazu/kawazu.sh"
+}
