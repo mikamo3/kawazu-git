@@ -1,6 +1,6 @@
 # Maintainer: mikamo3 <kamo3proj@gmail.com>
 pkgname=kawazu-git
-pkgver=r98.8dc1805
+pkgver=r101.0c72ed5
 pkgrel=1
 pkgdesc="A dotfiles manager"
 arch=(any)
