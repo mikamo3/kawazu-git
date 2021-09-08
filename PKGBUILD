@@ -1,6 +1,6 @@
 # Maintainer: mikamo3 <kamo3proj@gmail.com>
 pkgname=kawazu-git
-pkgver=r101.0c72ed5
+pkgver=r105.5fe03c2
 pkgrel=1
 pkgdesc="A dotfiles manager"
 arch=(any)
@@ -27,6 +27,7 @@ package() {
   mkdir -p "$pkgdir/usr/share/licenses/kawazu-git"
   install -D "./LICENSE" "$pkgdir/usr/share/licenses/kawazu-git"
   install -D "./kawazu.sh" "$pkgdir/usr/lib/kawazu/kawazu.sh"
+  install -D "./kawazu.fish" "$pkgdir/usr/lib/kawazu/kawazu.fish"
   install ./bin/* "$pkgdir/usr/lib/kawazu/bin"
   install ./lib/* "$pkgdir/usr/lib/kawazu/lib"
 }
