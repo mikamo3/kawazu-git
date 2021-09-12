@@ -28,6 +28,7 @@ package() {
   install -D "./LICENSE" "$pkgdir/usr/share/licenses/kawazu-git"
   install -D "./kawazu.sh" "$pkgdir/usr/lib/kawazu/kawazu.sh"
   install -D "./kawazu.fish" "$pkgdir/usr/lib/kawazu/kawazu.fish"
+  install -D "./profile/kawazu_vers" "/etc/profile.d/kawazu_vers"
   install ./bin/* "$pkgdir/usr/lib/kawazu/bin"
   install ./lib/* "$pkgdir/usr/lib/kawazu/lib"
 }
